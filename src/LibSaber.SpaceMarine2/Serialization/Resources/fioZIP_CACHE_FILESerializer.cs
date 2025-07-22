@@ -20,7 +20,7 @@ public class fioZIP_CACHE_FILESerializer : SM2SerializerBase<fioZIP_CACHE_FILE>
     if (peek > 5 || peek < 1)
     {
       isVersion7Plus = true;
-      reader.Position += 0x20;
+      //reader.Position += 0x20;
     }
 
     while (reader.Position < reader.Length)

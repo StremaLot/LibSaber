@@ -1,0 +1,23 @@
+﻿using LibSaber.QuakeChampions.Serialization.Scripting;
+
+namespace LibSaber.QuakeChampions.Structures.Materials
+{
+
+  public class MaterialExtraVertexColorData
+  {
+
+    [ScriptingProperty( "colorA" )]
+    public MaterialColor ColorA { get; set; }
+
+    [ScriptingProperty( "colorB" )]
+    public MaterialColor ColorB { get; set; }
+
+    [ScriptingProperty( "colorG" )]
+    public MaterialColor ColorG { get; set; }
+
+    [ScriptingProperty( "colorR" )]
+    public MaterialColor ColorR { get; set; }
+
+  }
+
+}

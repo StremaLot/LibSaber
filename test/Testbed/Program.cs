@@ -26,7 +26,7 @@ internal class Program
   {
     InitFileSystem();
     //TestAllTextureFormats();
-    //TestDeserializeAllTpls();
+    TestDeserializeAllTpls();
   }
 
   static void InitFileSystem()
@@ -37,7 +37,7 @@ internal class Program
     Console.Write("Initializing FileSystem...");
 
     var fs = new FileSystem();
-    var paks = Directory.EnumerateFiles(@"O:\Games\Warhammer 40000 Space Marine 2\client_pc", "*.pak", SearchOption.AllDirectories);
+    var paks = Directory.EnumerateFiles(@"D:\Games\W40K - Space Marine 2\client_pc", "*.pak", SearchOption.AllDirectories);
     foreach (var pak in paks)
     {
       var device = new SM2PckFileDevice(pak);

@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSaber.Halo2A", "src\LibS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSaber.SpaceMarine2", "src\LibSaber.SpaceMarine2\LibSaber.SpaceMarine2.csproj", "{1B72A672-95AF-47E6-9E7A-69F1FF999F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSaber.QuakeChampion", "src\LibSaber.QuakeChampions\LibSaber.QuakeChampion.csproj", "{097932B9-8F68-937D-FD8C-C44162A6E63C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSaber.QuakeChampions", "src\LibSaber.QuakeChampions\LibSaber.QuakeChampions.csproj", "{097932B9-8F68-937D-FD8C-C44162A6E63C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
